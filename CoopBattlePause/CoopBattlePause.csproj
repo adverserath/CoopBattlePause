@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <EnableHarmony>true</EnableHarmony>
+    <AssemblyName>CasualLife</AssemblyName>
+    <RootNamespace>CasualLife</RootNamespace>
+    <Version>1.5.50</Version>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="SMAPI.Toolkit">
+      <HintPath>A:\SteamLibrary\steamapps\common\Stardew Valley\smapi-internal\SMAPI.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
