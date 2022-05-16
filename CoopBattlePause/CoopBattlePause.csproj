@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <EnableHarmony>true</EnableHarmony>
-    <AssemblyName>CasualLife</AssemblyName>
-    <RootNamespace>CasualLife</RootNamespace>
+    <AssemblyName>CoopBattlePause</AssemblyName>
+    <RootNamespace>CoopBattlePause</RootNamespace>
     <Version>1.5.50</Version>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
