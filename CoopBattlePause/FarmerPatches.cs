@@ -1,5 +1,14 @@
-﻿using StardewModdingAPI;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using StardewModdingAPI;
+using StardewModdingAPI.Events;
 using StardewValley;
+using System;
+using System.Diagnostics;
+using System.Linq;
+using xTile.Dimensions;
+using static StardewValley.Debris;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace CoopBattlePause
 {
@@ -16,7 +25,7 @@ namespace CoopBattlePause
         {
             if (!__instance.temporarilyInvincible && !Game1.player.isEating && !Game1.fadeToBlack && !__instance.requestingTimePause.Value)
             {
-                __result = !Game1.buffsDisplay.hasBuff(21);
+                __result = !__instance.hasBuff(Buff.yobaBlessing);
                 return false;
             }
 

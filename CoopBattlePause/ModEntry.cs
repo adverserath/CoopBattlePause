@@ -1,7 +1,9 @@
 ﻿using HarmonyLib;
+using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Monsters;
+using System;
 
 namespace CoopBattlePause
 {
