@@ -1,7 +1,7 @@
 ﻿{
   "Name": "Coop Battle Pause",
   "Author": "adverserath",
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "Description": "Players cannot be targetted or hurt by monsters when on 'requestingTimePause' is flagged by them",
   "UniqueID": "Adverserath.CoopBattlePause",
   "EntryDll": "CoopBattlePause.dll",
